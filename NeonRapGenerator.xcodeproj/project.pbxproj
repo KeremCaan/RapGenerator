@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDAD0082AC8174400B2344E /* RapGenerator.cer in Resources */ = {isa = PBXBuildFile; fileRef = 0CDAD0072AC8174400B2344E /* RapGenerator.cer */; };
+		5227B37A2A9F8EAD006CAE2E /* Beats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5227B3792A9F8EAD006CAE2E /* Beats.swift */; };
+		5229A5EC2AA1CD5400DF004E /* GeneratingSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229A5EB2AA1CD5400DF004E /* GeneratingSongVC.swift */; };
+		5229A5EE2AA1D23500DF004E /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 5229A5ED2AA1D23500DF004E /* loading.json */; };
+		5229A5F12AA1D3BE00DF004E /* SongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5229A5F02AA1D3BE00DF004E /* SongVC.swift */; };
+		522F554F2AA3217A00492936 /* SavedRaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F554E2AA3217A00492936 /* SavedRaps.swift */; };
+		522F55512AA336ED00492936 /* RapperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F55502AA336ED00492936 /* RapperModel.swift */; };
+		52301D722AAB44CD004D9ED7 /* PaywallCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52301D712AAB44CD004D9ED7 /* PaywallCustomButton.swift */; };
+		5230557B2AA06FA10066F460 /* BeatsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230557A2AA06FA10066F460 /* BeatsCollectionViewCell.swift */; };
+		5230557D2AA0AC500066F460 /* RapperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230557C2AA0AC500066F460 /* RapperCollectionViewCell.swift */; };
+		52421CEE2AA8A9B9006342BB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52421CED2AA8A9B9006342BB /* Colors.swift */; };
+		52446D2F2A9DC7F400E4811B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446D2E2A9DC7F400E4811B /* SettingsVC.swift */; };
+		52446D312A9DC9B700E4811B /* AddSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446D302A9DC9B700E4811B /* AddSongVC.swift */; };
+		52446D352A9DD43800E4811B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52446D342A9DD43800E4811B /* GoogleService-Info.plist */; };
+		52446D372A9DDC6D00E4811B /* Home2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446D362A9DDC6D00E4811B /* Home2VC.swift */; };
+		52446D3A2A9DDFDA00E4811B /* RapSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446D392A9DDFDA00E4811B /* RapSongs.swift */; };
+		52446D3D2A9DE06C00E4811B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446D3C2A9DE06C00E4811B /* CollectionViewCell.swift */; };
+		52446D422A9E0D3900E4811B /* MultilineTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 52446D412A9E0D3900E4811B /* MultilineTextField */; };
+		52446D442A9E142B00E4811B /* GeneratingLyricsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446D432A9E142B00E4811B /* GeneratingLyricsVC.swift */; };
+		524DA99C2AA7431900F9E57F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524DA99B2AA7431900F9E57F /* APIManager.swift */; };
+		525516BD2A9F4494008EC100 /* EditLyricsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525516BC2A9F4494008EC100 /* EditLyricsVC.swift */; };
+		525516C02A9F5738008EC100 /* BeatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525516BF2A9F5738008EC100 /* BeatsVC.swift */; };
+		526D2AC42AA4E70D00CC0A21 /* ActualGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526D2AC32AA4E70D00CC0A21 /* ActualGradientButton.swift */; };
+		527A3D262A9C99DF00BC2A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D252A9C99DF00BC2A91 /* AppDelegate.swift */; };
+		527A3D2A2A9C99DF00BC2A91 /* Onboarding1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D292A9C99DF00BC2A91 /* Onboarding1VC.swift */; };
+		527A3D2F2A9C99E000BC2A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527A3D2E2A9C99E000BC2A91 /* Assets.xcassets */; };
+		527A3D3B2A9C9B2500BC2A91 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 527A3D3A2A9C9B2500BC2A91 /* NeonSDK */; };
+		527A3D3E2A9CAFF400BC2A91 /* Onboarding2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D3D2A9CAFF400BC2A91 /* Onboarding2VC.swift */; };
+		527A3D402A9CB46300BC2A91 /* Onboarding3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D3F2A9CB46300BC2A91 /* Onboarding3VC.swift */; };
+		527A3D422A9CB58800BC2A91 /* Onboarding4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D412A9CB58800BC2A91 /* Onboarding4VC.swift */; };
+		527A3D462A9CC83700BC2A91 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D452A9CC83700BC2A91 /* PaywallVC.swift */; };
+		527A3D492A9CE14A00BC2A91 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527A3D482A9CE14A00BC2A91 /* StoreKit.framework */; };
+		527A3D4B2A9CE17100BC2A91 /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 527A3D4A2A9CE17100BC2A91 /* Configuration.storekit */; };
+		527A3D4F2A9CE41300BC2A91 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527A3D4E2A9CE41300BC2A91 /* HomeVC.swift */; };
+		528D46A82A9E2A05005A27A5 /* GeneratedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D46A72A9E2A05005A27A5 /* GeneratedVC.swift */; };
+		528D5D302A9E7A2E00C0BB98 /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 528D5D2F2A9E7A2E00C0BB98 /* ChatGPTSwift */; };
+		528D5D332A9E85BB00C0BB98 /* RapperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D5D322A9E85BB00C0BB98 /* RapperVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CDAD0072AC8174400B2344E /* RapGenerator.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = RapGenerator.cer; sourceTree = "<group>"; };
+		5227B3792A9F8EAD006CAE2E /* Beats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats.swift; sourceTree = "<group>"; };
+		5229A5EB2AA1CD5400DF004E /* GeneratingSongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratingSongVC.swift; sourceTree = "<group>"; };
+		5229A5ED2AA1D23500DF004E /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		5229A5F02AA1D3BE00DF004E /* SongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongVC.swift; sourceTree = "<group>"; };
+		522F554E2AA3217A00492936 /* SavedRaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedRaps.swift; sourceTree = "<group>"; };
+		522F55502AA336ED00492936 /* RapperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapperModel.swift; sourceTree = "<group>"; };
+		52301D712AAB44CD004D9ED7 /* PaywallCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallCustomButton.swift; sourceTree = "<group>"; };
+		5230557A2AA06FA10066F460 /* BeatsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5230557C2AA0AC500066F460 /* RapperCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapperCollectionViewCell.swift; sourceTree = "<group>"; };
+		52421CED2AA8A9B9006342BB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		52446D2E2A9DC7F400E4811B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		52446D302A9DC9B700E4811B /* AddSongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongVC.swift; sourceTree = "<group>"; };
+		52446D342A9DD43800E4811B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52446D362A9DDC6D00E4811B /* Home2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2VC.swift; sourceTree = "<group>"; };
+		52446D392A9DDFDA00E4811B /* RapSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapSongs.swift; sourceTree = "<group>"; };
+		52446D3C2A9DE06C00E4811B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		52446D432A9E142B00E4811B /* GeneratingLyricsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratingLyricsVC.swift; sourceTree = "<group>"; };
+		524DA99B2AA7431900F9E57F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		525516BC2A9F4494008EC100 /* EditLyricsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLyricsVC.swift; sourceTree = "<group>"; };
+		525516BF2A9F5738008EC100 /* BeatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatsVC.swift; sourceTree = "<group>"; };
+		526D2AC32AA4E70D00CC0A21 /* ActualGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualGradientButton.swift; sourceTree = "<group>"; };
+		527A3D222A9C99DF00BC2A91 /* NeonRapGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeonRapGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527A3D252A9C99DF00BC2A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527A3D292A9C99DF00BC2A91 /* Onboarding1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1VC.swift; sourceTree = "<group>"; };
+		527A3D2E2A9C99E000BC2A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527A3D332A9C99E000BC2A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527A3D3D2A9CAFF400BC2A91 /* Onboarding2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2VC.swift; sourceTree = "<group>"; };
+		527A3D3F2A9CB46300BC2A91 /* Onboarding3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3VC.swift; sourceTree = "<group>"; };
+		527A3D412A9CB58800BC2A91 /* Onboarding4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding4VC.swift; sourceTree = "<group>"; };
+		527A3D452A9CC83700BC2A91 /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		527A3D482A9CE14A00BC2A91 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		527A3D4A2A9CE17100BC2A91 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		527A3D4E2A9CE41300BC2A91 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		528D46A72A9E2A05005A27A5 /* GeneratedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedVC.swift; sourceTree = "<group>"; };
+		528D5D322A9E85BB00C0BB98 /* RapperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapperVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527A3D1F2A9C99DF00BC2A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528D5D302A9E7A2E00C0BB98 /* ChatGPTSwift in Frameworks */,
+				527A3D3B2A9C9B2500BC2A91 /* NeonSDK in Frameworks */,
+				527A3D492A9CE14A00BC2A91 /* StoreKit.framework in Frameworks */,
+				52446D422A9E0D3900E4811B /* MultilineTextField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDAD0062AC8166A00B2344E /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				52301D712AAB44CD004D9ED7 /* PaywallCustomButton.swift */,
+				526D2AC32AA4E70D00CC0A21 /* ActualGradientButton.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5229A5EF2AA1D3A800DF004E /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				5229A5F02AA1D3BE00DF004E /* SongVC.swift */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		52446D382A9DDFC000E4811B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52446D392A9DDFDA00E4811B /* RapSongs.swift */,
+				522F55502AA336ED00492936 /* RapperModel.swift */,
+				522F554E2AA3217A00492936 /* SavedRaps.swift */,
+				5227B3792A9F8EAD006CAE2E /* Beats.swift */,
+				52421CED2AA8A9B9006342BB /* Colors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52446D3B2A9DE04800E4811B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52446D3C2A9DE06C00E4811B /* CollectionViewCell.swift */,
+				5230557A2AA06FA10066F460 /* BeatsCollectionViewCell.swift */,
+				5230557C2AA0AC500066F460 /* RapperCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		52446D3F2A9DE2B900E4811B /* SongMaking */ = {
+			isa = PBXGroup;
+			children = (
+				52446D302A9DC9B700E4811B /* AddSongVC.swift */,
+				52446D432A9E142B00E4811B /* GeneratingLyricsVC.swift */,
+				528D46A72A9E2A05005A27A5 /* GeneratedVC.swift */,
+				525516BC2A9F4494008EC100 /* EditLyricsVC.swift */,
+			);
+			path = SongMaking;
+			sourceTree = "<group>";
+		};
+		525516BE2A9F56FB008EC100 /* Beats */ = {
+			isa = PBXGroup;
+			children = (
+				525516BF2A9F5738008EC100 /* BeatsVC.swift */,
+			);
+			path = Beats;
+			sourceTree = "<group>";
+		};
+		526D2AC22AA4E6F300CC0A21 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				524DA99B2AA7431900F9E57F /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		527A3D192A9C99DF00BC2A91 = {
+			isa = PBXGroup;
+			children = (
+				527A3D242A9C99DF00BC2A91 /* NeonRapGenerator */,
+				527A3D232A9C99DF00BC2A91 /* Products */,
+				527A3D472A9CE14A00BC2A91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		527A3D232A9C99DF00BC2A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527A3D222A9C99DF00BC2A91 /* NeonRapGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527A3D242A9C99DF00BC2A91 /* NeonRapGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				0CDAD0062AC8166A00B2344E /* Custom Views */,
+				527A3D252A9C99DF00BC2A91 /* AppDelegate.swift */,
+				52446D3B2A9DE04800E4811B /* Cell */,
+				52446D382A9DDFC000E4811B /* Models */,
+				527A3D3C2A9C9CB200BC2A91 /* Onboarding */,
+				527A3D442A9CC81700BC2A91 /* Paywall */,
+				527A3D502A9CE42300BC2A91 /* Home */,
+				52446D3F2A9DE2B900E4811B /* SongMaking */,
+				525516BE2A9F56FB008EC100 /* Beats */,
+				528D5D312A9E859D00C0BB98 /* Rapper */,
+				5229A5EF2AA1D3A800DF004E /* Song */,
+				526D2AC22AA4E6F300CC0A21 /* Helper */,
+				527A3D4A2A9CE17100BC2A91 /* Configuration.storekit */,
+				0CDAD0072AC8174400B2344E /* RapGenerator.cer */,
+				527A3D332A9C99E000BC2A91 /* Info.plist */,
+				527A3D2E2A9C99E000BC2A91 /* Assets.xcassets */,
+				5229A5ED2AA1D23500DF004E /* loading.json */,
+				52446D342A9DD43800E4811B /* GoogleService-Info.plist */,
+			);
+			path = NeonRapGenerator;
+			sourceTree = "<group>";
+		};
+		527A3D3C2A9C9CB200BC2A91 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				527A3D292A9C99DF00BC2A91 /* Onboarding1VC.swift */,
+				527A3D3D2A9CAFF400BC2A91 /* Onboarding2VC.swift */,
+				527A3D3F2A9CB46300BC2A91 /* Onboarding3VC.swift */,
+				527A3D412A9CB58800BC2A91 /* Onboarding4VC.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		527A3D442A9CC81700BC2A91 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				527A3D452A9CC83700BC2A91 /* PaywallVC.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		527A3D472A9CE14A00BC2A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527A3D482A9CE14A00BC2A91 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527A3D502A9CE42300BC2A91 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				527A3D4E2A9CE41300BC2A91 /* HomeVC.swift */,
+				52446D362A9DDC6D00E4811B /* Home2VC.swift */,
+				52446D2E2A9DC7F400E4811B /* SettingsVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		528D5D312A9E859D00C0BB98 /* Rapper */ = {
+			isa = PBXGroup;
+			children = (
+				528D5D322A9E85BB00C0BB98 /* RapperVC.swift */,
+				5229A5EB2AA1CD5400DF004E /* GeneratingSongVC.swift */,
+			);
+			path = Rapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527A3D212A9C99DF00BC2A91 /* NeonRapGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527A3D362A9C99E000BC2A91 /* Build configuration list for PBXNativeTarget "NeonRapGenerator" */;
+			buildPhases = (
+				527A3D1E2A9C99DF00BC2A91 /* Sources */,
+				527A3D1F2A9C99DF00BC2A91 /* Frameworks */,
+				527A3D202A9C99DF00BC2A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeonRapGenerator;
+			packageProductDependencies = (
+				527A3D3A2A9C9B2500BC2A91 /* NeonSDK */,
+				52446D412A9E0D3900E4811B /* MultilineTextField */,
+				528D5D2F2A9E7A2E00C0BB98 /* ChatGPTSwift */,
+			);
+			productName = NeonRapGenerator;
+			productReference = 527A3D222A9C99DF00BC2A91 /* NeonRapGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527A3D1A2A9C99DF00BC2A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					527A3D212A9C99DF00BC2A91 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 527A3D1D2A9C99DF00BC2A91 /* Build configuration list for PBXProject "NeonRapGenerator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527A3D192A9C99DF00BC2A91;
+			packageReferences = (
+				527A3D392A9C9B2500BC2A91 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+				52446D402A9E0D3900E4811B /* XCRemoteSwiftPackageReference "MultilineTextField" */,
+				528D5D2E2A9E7A2E00C0BB98 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = 527A3D232A9C99DF00BC2A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527A3D212A9C99DF00BC2A91 /* NeonRapGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527A3D202A9C99DF00BC2A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5229A5EE2AA1D23500DF004E /* loading.json in Resources */,
+				527A3D2F2A9C99E000BC2A91 /* Assets.xcassets in Resources */,
+				52446D352A9DD43800E4811B /* GoogleService-Info.plist in Resources */,
+				0CDAD0082AC8174400B2344E /* RapGenerator.cer in Resources */,
+				527A3D4B2A9CE17100BC2A91 /* Configuration.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527A3D1E2A9C99DF00BC2A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52446D312A9DC9B700E4811B /* AddSongVC.swift in Sources */,
+				527A3D2A2A9C99DF00BC2A91 /* Onboarding1VC.swift in Sources */,
+				5227B37A2A9F8EAD006CAE2E /* Beats.swift in Sources */,
+				522F554F2AA3217A00492936 /* SavedRaps.swift in Sources */,
+				52446D372A9DDC6D00E4811B /* Home2VC.swift in Sources */,
+				525516BD2A9F4494008EC100 /* EditLyricsVC.swift in Sources */,
+				527A3D4F2A9CE41300BC2A91 /* HomeVC.swift in Sources */,
+				5230557B2AA06FA10066F460 /* BeatsCollectionViewCell.swift in Sources */,
+				527A3D462A9CC83700BC2A91 /* PaywallVC.swift in Sources */,
+				52301D722AAB44CD004D9ED7 /* PaywallCustomButton.swift in Sources */,
+				52421CEE2AA8A9B9006342BB /* Colors.swift in Sources */,
+				52446D3A2A9DDFDA00E4811B /* RapSongs.swift in Sources */,
+				524DA99C2AA7431900F9E57F /* APIManager.swift in Sources */,
+				527A3D402A9CB46300BC2A91 /* Onboarding3VC.swift in Sources */,
+				52446D442A9E142B00E4811B /* GeneratingLyricsVC.swift in Sources */,
+				52446D3D2A9DE06C00E4811B /* CollectionViewCell.swift in Sources */,
+				527A3D3E2A9CAFF400BC2A91 /* Onboarding2VC.swift in Sources */,
+				525516C02A9F5738008EC100 /* BeatsVC.swift in Sources */,
+				5230557D2AA0AC500066F460 /* RapperCollectionViewCell.swift in Sources */,
+				522F55512AA336ED00492936 /* RapperModel.swift in Sources */,
+				52446D2F2A9DC7F400E4811B /* SettingsVC.swift in Sources */,
+				528D5D332A9E85BB00C0BB98 /* RapperVC.swift in Sources */,
+				527A3D262A9C99DF00BC2A91 /* AppDelegate.swift in Sources */,
+				528D46A82A9E2A05005A27A5 /* GeneratedVC.swift in Sources */,
+				527A3D422A9CB58800BC2A91 /* Onboarding4VC.swift in Sources */,
+				526D2AC42AA4E70D00CC0A21 /* ActualGradientButton.swift in Sources */,
+				5229A5EC2AA1CD5400DF004E /* GeneratingSongVC.swift in Sources */,
+				5229A5F12AA1D3BE00DF004E /* SongVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		527A3D342A9C99E000BC2A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527A3D352A9C99E000BC2A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527A3D372A9C99E000BC2A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeonRapGenerator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.NeonRapGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527A3D382A9C99E000BC2A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeonRapGenerator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.NeonRapGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527A3D1D2A9C99DF00BC2A91 /* Build configuration list for PBXProject "NeonRapGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527A3D342A9C99E000BC2A91 /* Debug */,
+				527A3D352A9C99E000BC2A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527A3D362A9C99E000BC2A91 /* Build configuration list for PBXNativeTarget "NeonRapGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527A3D372A9C99E000BC2A91 /* Debug */,
+				527A3D382A9C99E000BC2A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52446D402A9E0D3900E4811B /* XCRemoteSwiftPackageReference "MultilineTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rlaguilar/MultilineTextField";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		527A3D392A9C9B2500BC2A91 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neon-apps/neon-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		528D5D2E2A9E7A2E00C0BB98 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52446D412A9E0D3900E4811B /* MultilineTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52446D402A9E0D3900E4811B /* XCRemoteSwiftPackageReference "MultilineTextField" */;
+			productName = MultilineTextField;
+		};
+		527A3D3A2A9C9B2500BC2A91 /* NeonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 527A3D392A9C9B2500BC2A91 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			productName = NeonSDK;
+		};
+		528D5D2F2A9E7A2E00C0BB98 /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 528D5D2E2A9E7A2E00C0BB98 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 527A3D1A2A9C99DF00BC2A91 /* Project object */;
+}
